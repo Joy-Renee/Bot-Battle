@@ -1,11 +1,19 @@
 
+body{
+    background-color: green;
+}
+
 .profile{
     text-align: center;
+    display: inline-block; 
+     justify-content: center; 
     
 }
 
 .form{
     border: 10px solid #ccc; 
-    border-radius: 0%; 
+    border-radius: 2%; 
+    margin:  10px;
+    background-color: aliceblue;
 
 }
