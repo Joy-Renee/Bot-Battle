@@ -1,6 +1,6 @@
 
 import { useEffect, useState } from "react";
-import Profile from "./profile";
+import Profile from "./Profile";
 
 function Home() {
     const [bots, setData] = useState([])

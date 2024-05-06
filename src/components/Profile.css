@@ -15,5 +15,12 @@ body{
     border-radius: 2%; 
     margin:  10px;
     background-color: aliceblue;
+    
 
 }
+
+ .image{
+    background-color: white;
+    border: 10px solid #e1e8df;
+} 
+
