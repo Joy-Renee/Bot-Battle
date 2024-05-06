@@ -1,10 +1,14 @@
 import './App.css';
+import ViewMore from './components/ViewMore';
 
 import Home from './components/Home';
 
 function App() {
  return(
-  <Home />
+    <>
+  <Home />,
+  <ViewMore />
+  </>
  )
 }
 

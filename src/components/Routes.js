@@ -1,13 +1,19 @@
 // import Profile from "./Profile"
+import ViewMore from "./ViewMore"
+import App from "../App"
 
 
-// const routes = [
-//     {
-//         path: "/viewmore/:id",
-//         element: <Profile />,
+const routes = [
+    {
+        path: "/",
+        element: <App />
         
-//     }
+    },
+    {
+        path: "/viewmore/:id",
+        element: <ViewMore />
+    }
     
-// ]
+]
 
-// export default routes
+ export default routes
