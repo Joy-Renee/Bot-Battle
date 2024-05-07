@@ -1,15 +1,15 @@
 {
   "files": {
     "main.css": "/Bot-Battle/static/css/main.c9f5f8c6.css",
-    "main.js": "/Bot-Battle/static/js/main.75315117.js",
+    "main.js": "/Bot-Battle/static/js/main.c91a4175.js",
     "static/js/453.3da55ab7.chunk.js": "/Bot-Battle/static/js/453.3da55ab7.chunk.js",
     "index.html": "/Bot-Battle/index.html",
     "main.c9f5f8c6.css.map": "/Bot-Battle/static/css/main.c9f5f8c6.css.map",
-    "main.75315117.js.map": "/Bot-Battle/static/js/main.75315117.js.map",
+    "main.c91a4175.js.map": "/Bot-Battle/static/js/main.c91a4175.js.map",
     "453.3da55ab7.chunk.js.map": "/Bot-Battle/static/js/453.3da55ab7.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.c9f5f8c6.css",
-    "static/js/main.75315117.js"
+    "static/js/main.c91a4175.js"
   ]
 }
