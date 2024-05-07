@@ -5,7 +5,7 @@ import App from "../App"
 
 const routes = [
     {
-        path: "/",
+        path: "/Bot-Battle",
         element: <App />
         
     },
