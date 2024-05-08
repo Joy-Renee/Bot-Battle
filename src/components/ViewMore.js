@@ -26,30 +26,30 @@ function ViewMore() {
         nav("/Bot-Battle")
     }
 
-    function handleClick(bot) {
-        fetch("https://json-server-bots.onrender.com/bots", {
-            method: "POST",
-            headers: {
-              "Content-Type": "application/json"
-            },
-            body: JSON.stringify(bot)
-          })
-          .then(res => {
-            if (!res.ok) {
-                throw new Error('Network response was not ok');
-            }
-            return res.json();
-        })
-          .then(data => {
-            console.log(data);
+    // function handleClick(bot) {
+    //     fetch("https://json-server-bots.onrender.com/bots", {
+    //         method: "POST",
+    //         headers: {
+    //           "Content-Type": "application/json"
+    //         },
+    //         body: JSON.stringify(bot)
+    //       })
+    //       .then(res => {
+    //         if (!res.ok) {
+    //             throw new Error('Network response was not ok');
+    //         }
+    //         return res.json();
+    //     })
+    //       .then(data => {
+    //         console.log(data);
             
-            nav("/Bot-Battle")
-        })
-        .catch(error => {
-            console.error('Error:', error);
-        });
-        console.log("clicked")
-    }
+    //         nav("/Bot-Battle")
+    //     })
+    //     .catch(error => {
+    //         console.error('Error:', error);
+    //     });
+    //     console.log("clicked")
+    // }
     
 
     return(
@@ -67,7 +67,7 @@ function ViewMore() {
                             <div>Bot_class: {bot.bot_class}</div>
                             <br></br>
                             <div>
-                                <button onClick={() =>handleClick(bot)}>Enlist</button>
+                                <button>Enlist</button>
                             </div>
                             <br></br>
                             <div>
