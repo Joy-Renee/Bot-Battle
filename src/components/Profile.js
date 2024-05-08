@@ -14,7 +14,9 @@ function Profile({bot}) {
                 <div>
                     <h3> Name: {bot.name}</h3> <br></br>
                     <h5>{bot.catchphrase}</h5>
-                    <Link to= {`/viewmore/${bot.id}`}> View more </Link>
+                    <button style={{backgroundColor: "green"} }>
+                    <Link to= {`/viewmore/${bot.id}`} style={{color: "white"} }> View specs </Link>
+                    </button>
                 </div>
                 
             </form>
